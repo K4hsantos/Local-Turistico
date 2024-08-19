@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* title page */
+
+#title-page span{
+  position: relative;
+  margin: 40px;
+  padding: 40px;
+  top: 135px;
+  left: 10px;
+  color: #E1624F;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#title-page h1{
+  position: relative;
+  padding: 40px;
+  top: 100px;
+  left: 50px;
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* description + image */
+
+div img{
+  margin: 80px;
+  padding: 8px;
+}
+
+div p{
+  position: relative;
+  bottom: 0px;
+  font-size: 16px;
+  font-style: italic;
+  padding: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  text-align: center;
+}
