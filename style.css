@@ -2,46 +2,120 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Open Sans", system-ui;
+  font-optical-sizing: auto;
 }
 
 /* title page */
 
 #title-page span{
   position: relative;
-  margin: 40px;
+  margin-left: 130px;
   padding: 40px;
-  top: 135px;
-  left: 10px;
+  top: 165px;
   color: #E1624F;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-weight: 900; /* Máximo de espessura para o texto */
 }
 
 #title-page h1{
   position: relative;
+  margin-left: 130px;
   padding: 40px;
-  top: 100px;
-  left: 50px;
+  top: 130px;
   font-size: 36px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  
 }
 
-/* description + image */
 
-div img{
+#title-page img{
   margin: 80px;
-  padding: 8px;
+  padding: 88px;
+  margin-bottom: 24px;
+  margin-top: 40px;
 }
 
-div p{
+#title-page p{
+  margin-right: 200px;
+  margin-left: 200px;
+  bottom: 80px;
   position: relative;
-  bottom: 0px;
-  font-size: 16px;
-  font-style: italic;
-  padding: 24px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   text-align: center;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+hr {
+  position: relative;
+  border: none; /* Remove a borda padrão */
+  height: 1px; /* Define a altura da linha */
+  background-color: #ccc; /* Define a cor da linha */
+  margin: 20px 170px; /* Define o espaçamento ao redor da linha */
+  bottom: 80px;
+  margin-bottom: 40px;
+}
+
+
+/* lista de lugar */
+
+#destino1 span{
+  position: relative;
+  margin-top: 64px;
+  margin-left: 130px;
+  padding: 40px;
+  color: #E1624F;
+  font-size: 16px;
+  font-weight: 900; /* Máximo de espessura para o texto */
+}
+
+#destino1 h1{
+  position: relative;
+  margin-left: 165px;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+#destino1 p{
+margin-left: 170px;
+margin-right: 170px;
+font-size: 16px;
+color: #333333;
+}
+
+#destino1 img{
+  margin: 80px;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 125px;
+}
+
+#destino1 h3{
+  position: relative;
+  bottom: 40px;
+  margin-left: 165px;
+  margin-right: 130px;
+  font-size: 28px;
+}
+
+#texto1{
+  position: relative;
+  margin-left: 165px;
+  margin-right: 130px;
+  bottom: 35px;
+}
+
+#destino1 ul{
+  position: relative;
+  margin-left: 165px;
+  margin-right: 130px;
+  font-weight: 600; /* Máximo de espessura para o texto */
+}
+
+#destino1 li{
+  position: relative;
+  margin-left: 165px;
+  margin-right: 130px;
+  color: #0C51A7;
+  font-weight: 700; /* Máximo de espessura para o texto */
 }
