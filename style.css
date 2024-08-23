@@ -109,13 +109,13 @@ color: #333333;
 #destino1 ul{
   position: relative;
   margin-left: 165px;
+  bottom: 10px;
   font-weight: 600; /* Máximo de espessura para o texto */
 }
 
 #destino1 li{
   position: relative;
   margin-left: 32px;
-  color: #000000;
   font-weight: 700; /* Máximo de espessura para o texto */
 }
 
@@ -141,22 +141,65 @@ color: #333333;
 
 #texto2{
   position: relative;
-  margin-top: 20px;
   margin-left: 165px;
-  margin-right: 130px;
-  margin-bottom: 48px;
+  margin-right: 140px;
+  margin-bottom: 30px;
 }
 
 #destino2 ul{
   position: relative;
-  margin-left: 157px;
+  margin-left: 165px;
   font-weight: 600; /* Máximo de espessura para o texto */
 }
 
 #destino2 li{
   position: relative;
   margin-left: 32px;
-  color: #000000;
   font-weight: 700; /* Máximo de espessura para o texto */
   margin-bottom: 48px;
 }
+
+
+/* Parque Yongdusan */
+
+
+#destino3 img{
+  margin-left: 165px;
+  margin-bottom: 20px;
+}
+
+#destino3 h3{
+  position: relative;
+  margin-left: 165px;
+  font-size: 28px;
+}
+
+#texto3{
+  position: relative;
+  margin-left: 165px;
+  margin-right: 155px;
+  margin-bottom: 30px;
+}
+
+
+#destino3 ul{
+  position: relative;
+  margin-left: 157px;
+  font-weight: 600; /* Máximo de espessura para o texto */
+  margin-bottom: 120px;
+}
+
+#destino3 li{
+  position: relative;
+  margin-left: 32px;
+  font-weight: 700; /* Máximo de espessura para o texto */
+}
+
+#destino3 hr{
+  position: relative;
+  border: none; /* Remove a borda padrão */
+  height: 1px; /* Define a altura da linha */
+  background-color: #ccc; /* Define a cor da linha */
+  margin-bottom: 40px;
+}
+
