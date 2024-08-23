@@ -82,6 +82,8 @@ font-size: 16px;
 color: #333333;
 }
 
+/* Templo Haedon */
+
 #destino1 img{
   margin: 80px;
   padding: 40px;
@@ -94,7 +96,6 @@ color: #333333;
   position: relative;
   bottom: 40px;
   margin-left: 165px;
-  margin-right: 130px;
   font-size: 28px;
 }
 
@@ -108,14 +109,54 @@ color: #333333;
 #destino1 ul{
   position: relative;
   margin-left: 165px;
-  margin-right: 130px;
   font-weight: 600; /* Máximo de espessura para o texto */
 }
 
 #destino1 li{
   position: relative;
+  margin-left: 32px;
+  color: #000000;
+  font-weight: 700; /* Máximo de espessura para o texto */
+}
+
+#lista1{
+  position: relative;
+  right: 175px;
+  margin-bottom: 48px;
+}
+
+
+/* Templo Beomeo-sa */
+
+#destino2 img{
+  margin-left: 165px;
+  margin-bottom: 20px;
+}
+
+#destino2 h3{
+  position: relative;
+  margin-left: 165px;
+  font-size: 28px;
+}
+
+#texto2{
+  position: relative;
+  margin-top: 20px;
   margin-left: 165px;
   margin-right: 130px;
-  color: #0C51A7;
+  margin-bottom: 48px;
+}
+
+#destino2 ul{
+  position: relative;
+  margin-left: 157px;
+  font-weight: 600; /* Máximo de espessura para o texto */
+}
+
+#destino2 li{
+  position: relative;
+  margin-left: 32px;
+  color: #000000;
   font-weight: 700; /* Máximo de espessura para o texto */
+  margin-bottom: 48px;
 }
